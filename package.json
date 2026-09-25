@@ -11,6 +11,7 @@
     "react-dom": "^19.2.8",
     "react-router-dom": "^7.18.2",
     "react-scripts": "5.0.1",
+    "router-dom": "^3.3.6",
     "sass": "^1.103.1",
     "web-vitals": "^2.1.4"
   },
