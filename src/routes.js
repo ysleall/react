@@ -6,6 +6,10 @@ import Contato from './pages/contato/index.jsx';
 import Naoencontrado from './pages/naoencontrado/naoencontrado.jsx';
 import './pages/contador/index.scss';
 import Contador from './pages/contador/index.jsx';
+import './pages/text/index.scss';
+import Text from './pages/text/index.jsx';
+import Calculadora from './pages/calculadora/index.jsx';
+
 export default function Routess() {
   return (
     <BrowserRouter>
@@ -14,6 +18,8 @@ export default function Routess() {
         <Route path='/contato' element={<Contato />} />
         <Route path='*' element={<Naoencontrado />} />
         <Route path='/contador' element={<Contador/>} />
+        <Route path='/text' element={<Text/>} />
+          <Route path='/cal' element={<Calculadora/>} />
       </Routes>
     </BrowserRouter>
   );
