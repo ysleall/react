@@ -3,6 +3,7 @@
 
 import { useState } from 'react';
 import './index.scss';
+import Cabecalho from '../../componentes/index.jsx';
 
 export default function Contador() {
   const [contagem, setContagem] = useState(0);
@@ -21,6 +22,7 @@ export default function Contador() {
 
   return (
     <div className='contador'>
+        <Cabecalho titulo = "vamo vamo" />
       <h1>Contador</h1>
       <p>{contagem}</p>
       <button onClick={mais}>+</button>
